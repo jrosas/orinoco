@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Query
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          query
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: List of Queries
+        display: [ =Name, Link, User ]
+      filter:  
+        display: [ name, user_id, link, created_at ]
+      form:    ~
+      edit:    
+        title: Editing Query %%name%% of %%user%%
+      new:     
+        title: New Query

@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Plan
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          plan
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: List of Plans 
+        display: [ =Name, Link, User ]
+      filter:  
+        display: [ name, user_id, link, created_at ]
+      form:    ~
+      edit:
+        title: Editing Plan %%name%% of %%user%%
+      new:
+        title: New Plan

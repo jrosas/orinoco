@@ -1,0 +1,26 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Service
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          service
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: List of Services
+        display: [ =Name, Link, Description, Created_at ]
+      filter:  
+        display: [ name, link, created_at ]
+      form:    ~
+      edit:
+        title: Editing Service %%name%% of %%user%%
+      new:
+        title: New Service

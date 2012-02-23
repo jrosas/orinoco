@@ -1,0 +1,698 @@
+Jan 25 00:07:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 25 00:07:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jan 25 00:07:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jan 25 00:07:33 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jan 25 00:07:33 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Jan 25 00:07:33 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 25 00:07:33 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Jan 25 00:07:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jan 25 00:07:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jan 25 00:07:33 symfony [info] {sfWebDebugLogger} Configuration 148.87 ms (9)
+Jan 25 00:07:33 symfony [info] {sfWebDebugLogger} Factories 226.37 ms (1)
+Jan 25 00:07:33 symfony [info] {sfWebDebugLogger} Action "default/index" 0.06 ms (1)
+Jan 25 00:07:33 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 16.86 ms (1)
+Jan 25 00:07:33 symfony [info] {sfWebResponse} Send content (28496 o)
+Feb 02 00:07:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/index with parameters array (  'module' => 'publicador',  'action' => 'index',)
+Feb 02 00:07:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:07:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:07:11 symfony [info] {publicadorActions} Call "publicadorActions->executeIndex()"
+Feb 02 00:07:11 symfony [info] {publicadorActions} Forward to action "default/module"
+Feb 02 00:07:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:07:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:07:11 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Feb 02 00:07:11 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/moduleSuccess.php"
+Feb 02 00:07:11 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 02 00:07:11 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 02 00:07:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:07:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:07:11 symfony [info] {sfWebDebugLogger} Configuration 115.30 ms (13)
+Feb 02 00:07:11 symfony [info] {sfWebDebugLogger} Factories 15.43 ms (1)
+Feb 02 00:07:11 symfony [info] {sfWebDebugLogger} Action "publicador/index" 19.90 ms (1)
+Feb 02 00:07:11 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Feb 02 00:07:11 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 16.56 ms (1)
+Feb 02 00:07:11 symfony [info] {sfWebResponse} Send content (30447 o)
+Feb 02 00:07:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/index with parameters array (  'module' => 'publicador',  'action' => 'index',)
+Feb 02 00:07:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:07:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:07:40 symfony [info] {publicadorActions} Call "publicadorActions->executeIndex()"
+Feb 02 00:07:40 symfony [info] {publicadorActions} Forward to action "default/module"
+Feb 02 00:07:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:07:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:07:40 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Feb 02 00:07:40 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/moduleSuccess.php"
+Feb 02 00:07:40 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 02 00:07:40 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 02 00:07:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:07:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:07:40 symfony [info] {sfWebDebugLogger} Configuration 1.93 ms (12)
+Feb 02 00:07:40 symfony [info] {sfWebDebugLogger} Factories 14.80 ms (1)
+Feb 02 00:07:40 symfony [info] {sfWebDebugLogger} Action "publicador/index" 7.42 ms (1)
+Feb 02 00:07:40 symfony [info] {sfWebDebugLogger} Action "default/module" 0.12 ms (1)
+Feb 02 00:07:40 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 5.29 ms (1)
+Feb 02 00:07:40 symfony [info] {sfWebResponse} Send content (30640 o)
+Feb 02 00:28:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:28:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:28:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:28:18 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:28:18 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:28:18 symfony [notice] {sfWebDebugLogger}  Notice at /home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php on line 13 (Undefined variable: hour)
+Feb 02 00:28:18 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:28:18 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:28:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:28:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:28:18 symfony [info] {sfWebDebugLogger} Configuration 40.35 ms (10)
+Feb 02 00:28:18 symfony [info] {sfWebDebugLogger} Factories 15.22 ms (1)
+Feb 02 00:28:18 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.20 ms (1)
+Feb 02 00:28:18 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 65.91 ms (1)
+Feb 02 00:28:18 symfony [info] {sfWebResponse} Send content (32536 o)
+Feb 02 00:30:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:30:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:30:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:30:17 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:30:17 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:30:17 symfony [notice] {sfWebDebugLogger}  Notice at /home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php on line 13 (Undefined variable: hour)
+Feb 02 00:30:17 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:30:17 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:30:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:30:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:30:17 symfony [info] {sfWebDebugLogger} Configuration 1.06 ms (9)
+Feb 02 00:30:17 symfony [info] {sfWebDebugLogger} Factories 15.20 ms (1)
+Feb 02 00:30:17 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.19 ms (1)
+Feb 02 00:30:17 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.33 ms (1)
+Feb 02 00:30:17 symfony [info] {sfWebResponse} Send content (32618 o)
+Feb 02 00:30:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:30:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:30:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:30:21 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:30:21 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:30:21 symfony [notice] {sfWebDebugLogger}  Notice at /home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php on line 13 (Undefined variable: hour)
+Feb 02 00:30:21 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:30:21 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:30:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:30:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:30:21 symfony [info] {sfWebDebugLogger} Configuration 0.97 ms (9)
+Feb 02 00:30:21 symfony [info] {sfWebDebugLogger} Factories 15.55 ms (1)
+Feb 02 00:30:21 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.15 ms (1)
+Feb 02 00:30:21 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.87 ms (1)
+Feb 02 00:30:21 symfony [info] {sfWebResponse} Send content (32617 o)
+Feb 02 00:30:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:30:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:30:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:30:53 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:30:53 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:30:53 symfony [err] {sfWebDebugLogger}  Error at /home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php on line 13 (Object of class sfOutputEscaperArrayDecorator could not be converted to string)
+Feb 02 00:32:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:32:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:32:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:32:59 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:32:59 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:32:59 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:32:59 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:32:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:32:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:32:59 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (9)
+Feb 02 00:32:59 symfony [info] {sfWebDebugLogger} Factories 14.90 ms (1)
+Feb 02 00:32:59 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:32:59 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.59 ms (1)
+Feb 02 00:32:59 symfony [info] {sfWebResponse} Send content (27396 o)
+Feb 02 00:33:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:27 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:27 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:27 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:27 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:27 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (9)
+Feb 02 00:33:27 symfony [info] {sfWebDebugLogger} Factories 14.42 ms (1)
+Feb 02 00:33:27 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:33:27 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.49 ms (1)
+Feb 02 00:33:27 symfony [info] {sfWebResponse} Send content (27394 o)
+Feb 02 00:33:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:29 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (9)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Factories 14.89 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.64 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send content (27394 o)
+Feb 02 00:33:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:29 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Configuration 0.95 ms (9)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Factories 15.05 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.14 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.84 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send content (27394 o)
+Feb 02 00:33:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:29 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (9)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Factories 14.11 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.65 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send content (27394 o)
+Feb 02 00:33:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:29 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Configuration 0.94 ms (9)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Factories 14.71 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.55 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send content (27394 o)
+Feb 02 00:33:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:29 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Configuration 0.94 ms (9)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Factories 15.24 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.14 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.67 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send content (27393 o)
+Feb 02 00:33:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:29 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Configuration 0.95 ms (9)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Factories 14.87 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.59 ms (1)
+Feb 02 00:33:29 symfony [info] {sfWebResponse} Send content (27393 o)
+Feb 02 00:33:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /publicador with parameters array (  'module' => 'publicador',  'action' => 'index',)
+Feb 02 00:33:35 symfony [info] {sfFrontWebController} Action "publicador/index" does not exist
+Feb 02 00:33:35 symfony [err] {sfError404Exception} Action "publicador/index" does not exist.
+Feb 02 00:33:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 02 00:33:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:35 symfony [info] {sfWebDebugLogger} Configuration 0.81 ms (5)
+Feb 02 00:33:35 symfony [info] {sfWebDebugLogger} Factories 15.06 ms (1)
+Feb 02 00:33:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:33:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:33:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:33:44 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:33:44 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:33:44 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:44 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:33:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:33:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:33:44 symfony [info] {sfWebDebugLogger} Configuration 1.00 ms (9)
+Feb 02 00:33:44 symfony [info] {sfWebDebugLogger} Factories 16.90 ms (1)
+Feb 02 00:33:44 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.14 ms (1)
+Feb 02 00:33:44 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.26 ms (1)
+Feb 02 00:33:44 symfony [info] {sfWebResponse} Send content (27361 o)
+Feb 02 00:35:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:35:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:35:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:35:35 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (9)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Factories 14.54 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.11 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.67 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send content (27397 o)
+Feb 02 00:35:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:35:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:35:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:35:35 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (9)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Factories 13.97 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.11 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.80 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send content (27397 o)
+Feb 02 00:35:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:35:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:35:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:35:35 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:35 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Configuration 1.44 ms (9)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Factories 14.10 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.15 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.79 ms (1)
+Feb 02 00:35:35 symfony [info] {sfWebResponse} Send content (27396 o)
+Feb 02 00:35:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:35:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:35:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:35:36 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Factories 14.34 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.60 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send content (27396 o)
+Feb 02 00:35:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:35:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:35:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:35:36 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (9)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Factories 15.47 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.12 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.60 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send content (27397 o)
+Feb 02 00:35:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:35:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:35:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:35:36 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:36 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (9)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Factories 14.70 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.11 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.48 ms (1)
+Feb 02 00:35:36 symfony [info] {sfWebResponse} Send content (27396 o)
+Feb 02 00:36:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:36:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:36:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:36:15 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:36:15 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:36:15 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:36:15 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:36:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:36:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:36:15 symfony [info] {sfWebDebugLogger} Configuration 0.90 ms (9)
+Feb 02 00:36:15 symfony [info] {sfWebDebugLogger} Factories 16.62 ms (1)
+Feb 02 00:36:15 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.14 ms (1)
+Feb 02 00:36:15 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.19 ms (1)
+Feb 02 00:36:15 symfony [info] {sfWebResponse} Send content (27406 o)
+Feb 02 00:37:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:37:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:37:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:37:07 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:37:07 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:37:07 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:37:07 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:37:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:37:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:37:07 symfony [info] {sfWebDebugLogger} Configuration 88.91 ms (9)
+Feb 02 00:37:07 symfony [info] {sfWebDebugLogger} Factories 66.28 ms (1)
+Feb 02 00:37:07 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.15 ms (1)
+Feb 02 00:37:07 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 6.69 ms (1)
+Feb 02 00:37:07 symfony [info] {sfWebResponse} Send content (27408 o)
+Feb 02 00:39:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:39:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:39:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:39:56 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:39:56 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:39:56 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:39:56 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:39:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:39:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:39:56 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+Feb 02 00:39:56 symfony [info] {sfWebDebugLogger} Factories 14.15 ms (1)
+Feb 02 00:39:56 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:39:56 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.65 ms (1)
+Feb 02 00:39:56 symfony [info] {sfWebResponse} Send content (27477 o)
+Feb 02 00:40:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:19 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Configuration 0.89 ms (9)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Factories 17.55 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.15 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.68 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send content (27477 o)
+Feb 02 00:40:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:19 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Configuration 1.10 ms (9)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Factories 14.78 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.13 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send content (27478 o)
+Feb 02 00:40:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:19 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Configuration 0.90 ms (9)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Factories 14.34 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.61 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send content (27477 o)
+Feb 02 00:40:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:19 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Configuration 0.96 ms (9)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Factories 14.28 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.16 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.56 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send content (27477 o)
+Feb 02 00:40:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:19 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Configuration 0.96 ms (9)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Factories 14.59 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.12 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.12 ms (1)
+Feb 02 00:40:19 symfony [info] {sfWebResponse} Send content (27478 o)
+Feb 02 00:40:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:34 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:34 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:34 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:34 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:34 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (9)
+Feb 02 00:40:34 symfony [info] {sfWebDebugLogger} Factories 14.82 ms (1)
+Feb 02 00:40:34 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:34 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.61 ms (1)
+Feb 02 00:40:34 symfony [info] {sfWebResponse} Send content (27117 o)
+Feb 02 00:40:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:37 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Configuration 0.98 ms (9)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Factories 14.52 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.69 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send content (27441 o)
+Feb 02 00:40:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:37 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (9)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Factories 14.42 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.11 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.47 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send content (27441 o)
+Feb 02 00:40:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:37 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (9)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Factories 14.61 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.11 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.64 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send content (27441 o)
+Feb 02 00:40:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:37 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Configuration 0.96 ms (9)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Factories 14.47 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.52 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send content (27441 o)
+Feb 02 00:40:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:37 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Configuration 0.91 ms (9)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Factories 14.25 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.60 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send content (27441 o)
+Feb 02 00:40:37 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:37 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Configuration 0.94 ms (9)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Factories 14.27 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.48 ms (1)
+Feb 02 00:40:37 symfony [info] {sfWebResponse} Send content (27442 o)
+Feb 02 00:40:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:38 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Configuration 0.92 ms (9)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Factories 14.48 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.11 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.63 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send content (27442 o)
+Feb 02 00:40:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:38 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Configuration 0.91 ms (9)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Factories 14.10 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.21 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.62 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send content (27442 o)
+Feb 02 00:40:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:38 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Configuration 0.91 ms (9)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Factories 14.31 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.47 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send content (27441 o)
+Feb 02 00:40:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:40:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:40:38 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Configuration 0.94 ms (9)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Factories 14.27 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.14 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 4.81 ms (1)
+Feb 02 00:40:38 symfony [info] {sfWebResponse} Send content (27442 o)
+Feb 02 00:41:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /publicador/show with parameters array (  'module' => 'publicador',  'action' => 'show',)
+Feb 02 00:41:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 02 00:41:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 02 00:41:39 symfony [info] {publicadorActions} Call "publicadorActions->executeShow()"
+Feb 02 00:41:39 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/modules/publicador/templates/showSuccess.php"
+Feb 02 00:41:39 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:41:39 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 02 00:41:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 02 00:41:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 02 00:41:39 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (9)
+Feb 02 00:41:39 symfony [info] {sfWebDebugLogger} Factories 14.14 ms (1)
+Feb 02 00:41:39 symfony [info] {sfWebDebugLogger} Action "publicador/show" 0.13 ms (1)
+Feb 02 00:41:39 symfony [info] {sfWebDebugLogger} View "Success" for "publicador/show" 5.20 ms (1)
+Feb 02 00:41:39 symfony [info] {sfWebResponse} Send content (27478 o)
+Feb 22 17:59:56 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 22 17:59:56 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 22 17:59:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 22 17:59:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 17:59:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 17:59:56 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 22 17:59:56 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 22 17:59:56 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 22 17:59:56 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 22 17:59:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 22 17:59:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 17:59:56 symfony [info] {sfWebDebugLogger} Configuration 121.77 ms (9)
+Feb 22 17:59:56 symfony [info] {sfWebDebugLogger} Factories 138.36 ms (1)
+Feb 22 17:59:56 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Feb 22 17:59:56 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 7.41 ms (1)
+Feb 22 17:59:56 symfony [info] {sfWebResponse} Send content (30662 o)
+Feb 22 18:23:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 22 18:23:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 22 18:23:06 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/login) for /login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Feb 22 18:23:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 18:23:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 18:23:06 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Feb 22 18:23:06 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Feb 22 18:23:06 symfony [info] {sfPartialView} Render "/home/jrosas/orinoco/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Feb 22 18:23:06 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 22 18:23:06 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/apps/frontend/templates/layout.php"
+Feb 22 18:23:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Feb 22 18:23:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 18:23:06 symfony [info] {sfWebDebugLogger} Configuration 142.17 ms (9)
+Feb 22 18:23:06 symfony [info] {sfWebDebugLogger} Factories 79.32 ms (1)
+Feb 22 18:23:06 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 31.56 ms (1)
+Feb 22 18:23:06 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 30.59 ms (1)
+Feb 22 18:23:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 2.81 ms (1)
+Feb 22 18:23:06 symfony [info] {sfWebResponse} Send content (33791 o)
+Feb 22 18:23:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 22 18:23:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 22 18:23:52 symfony [info] {sfPatternRouting} Match route "sf_guard_signout" (/logout) for /logout with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signout',)
+Feb 22 18:23:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 18:23:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 18:23:52 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignout()"
+Feb 22 18:23:52 symfony [info] {myUser} User is not authenticated
+Feb 22 18:23:52 symfony [info] {sfFrontWebController} Redirect to "http://orinoco.local.com/frontend_dev.php/"
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send header "Location: http://orinoco.local.com/frontend_dev.php/"
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send cookie "sfRemember": ""
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} Configuration 1.58 ms (8)
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} Factories 14.04 ms (1)
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signout" 1.56 ms (1)
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send content (113 o)
+Feb 22 18:23:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 22 18:23:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 22 18:23:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 22 18:23:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 18:23:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 18:23:52 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 22 18:23:52 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 22 18:23:52 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 22 18:23:52 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} Configuration 12.29 ms (10)
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} Factories 7.47 ms (1)
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Feb 22 18:23:52 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 6.74 ms (1)
+Feb 22 18:23:52 symfony [info] {sfWebResponse} Send content (30840 o)
+Feb 22 18:23:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 22 18:23:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 22 18:23:58 symfony [info] {sfPatternRouting} Match route "sf_guard_signout" (/logout) for /logout with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signout',)
+Feb 22 18:23:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 18:23:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 18:23:58 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignout()"
+Feb 22 18:23:58 symfony [info] {myUser} User is not authenticated
+Feb 22 18:23:58 symfony [info] {sfFrontWebController} Redirect to "http://orinoco.local.com/frontend_dev.php/"
+Feb 22 18:23:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 22 18:23:58 symfony [info] {sfWebResponse} Send header "Location: http://orinoco.local.com/frontend_dev.php/"
+Feb 22 18:23:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 18:23:58 symfony [info] {sfWebResponse} Send cookie "sfRemember": ""
+Feb 22 18:23:58 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (8)
+Feb 22 18:23:58 symfony [info] {sfWebDebugLogger} Factories 9.67 ms (1)
+Feb 22 18:23:58 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signout" 1.50 ms (1)
+Feb 22 18:23:58 symfony [info] {sfWebResponse} Send content (113 o)
+Feb 22 18:23:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Feb 22 18:23:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Feb 22 18:23:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 22 18:23:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 22 18:23:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 22 18:23:59 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 22 18:23:59 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/indexSuccess.php"
+Feb 22 18:23:59 symfony [info] {sfPHPView} Decorate content with "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 22 18:23:59 symfony [info] {sfPHPView} Render "/home/jrosas/orinoco/lib/symfony/lib/controller/default/templates/defaultLayout.php"
+Feb 22 18:23:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 22 18:23:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 22 18:23:59 symfony [info] {sfWebDebugLogger} Configuration 1.25 ms (9)
+Feb 22 18:23:59 symfony [info] {sfWebDebugLogger} Factories 6.87 ms (1)
+Feb 22 18:23:59 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Feb 22 18:23:59 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 3.68 ms (1)
+Feb 22 18:23:59 symfony [info] {sfWebResponse} Send content (30869 o)

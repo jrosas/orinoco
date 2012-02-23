@@ -1,0 +1,79 @@
+User:
+  inheritance:
+    extends: sfGuardUser
+    type: simple
+  columns:
+    sex: { type: string(1) }
+    city: { type: string(100) }
+    fecha_nac: { type: date }
+    
+Query:
+  actAs: [Timestampable]
+  columns:
+    name: { type: string(100) }
+    url: { type: string(500) }
+    description: { type: string(500) }
+    user_id: { type: integer, notnull: true }
+  relations:
+    User: { onDelete: CASCADE, local: user_id, foreign: id, foreignAlias: Queries }
+    
+    #Asociar plan con query
+Plan:
+  actAs: [Timestampable]
+  columns:
+    name: { type: string(100) }
+    url: { type: string(500) }
+    description: { type: string(500) }
+    user_id: { type: integer, notnull: true }
+    query_id: { type: integer, notnull: true }
+  relations:
+    User: { onDelete: CASCADE, local: user_id, foreign: id, foreignAlias: Plans }
+    Query: { local: user_id, foreign: id, foreignAlias: Query }
+    
+    #Agregar los parametros de calidad en esta tabla
+Service:
+  actAs: [Timestampable]
+  columns:
+    name: { type: string(100) }
+    url: { type: string(500) }
+    description: { type: string(500) }
+  relations:
+    Repositories: { foreignAlias: Services, class: Repository, refClass: RepoServ}
+    
+Quality:
+  columns:
+    name: { type: string(100) }
+    description: { type: string(500) }
+    
+QltyServ:
+  columns:
+    quality_id: { type: integer, primary: true }
+    service_id: { type: integer, primary: true }
+    value: { type: string(500) }
+  relations:
+    Quality: { foreignAlias: Quality }
+    Service: { foreignAlias: Service }
+    
+Repository:
+  columns:
+    name: { type: string(100) }
+    user_id: { type: integer, notnull: true }
+  relations:
+    User: { onDelete: CASCADE, local: user_id, foreign: id, foreignAlias: Repos }
+  attributes:
+    export: all
+    validate: true
+
+RepoServ:
+  columns:
+    service_id: { type: integer, primary: true }
+    repository_id: { type: integer, primary: true }
+  relations:
+    Service: { foreignAlias: RepoServs }
+    Repository: { foreignAlias: RepoServs }
+    
+    
+    #Estrategias de ejecución y cual composicion
+    #Escoger varios evaluadores
+    
+    #Ejecutar, ver estatus, offline, online, avance
